@@ -20,8 +20,8 @@ def load_model_and_tokenizer(model_path, tokenizer_path):
         tokenizer = pickle.load(handle)
     return model, tokenizer
 
-model_path = 'D:/kuliah nopal/semester 4/Pembelajaran Mesin/project/spam_detection_cnn_model.h5'
-tokenizer_path = 'D:/kuliah nopal/semester 4/Pembelajaran Mesin/project/tokenizer.pickle'
+model_path = 'spam_detection_cnn_model.h5'
+tokenizer_path = 'tokenizer.pickle'
 
 model, tokenizer = load_model_and_tokenizer(model_path, tokenizer_path)
 
